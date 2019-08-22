@@ -1,0 +1,35 @@
+{
+  "name": "video-capture",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html -d public",
+    "format-check": "prettier --l \"**\"",
+    "format": "prettier --write \"**\""
+  },
+  "browserslist": [
+    "last 2 Chrome versions",
+    "last 1 iOS versions"
+  ],
+  "cache": {
+    "strategy": "default",
+    "swDest": "service-worker.js"
+  },
+  "dependencies": {
+    "@rebass/preset": "^4.0.2",
+    "emotion": "^10.0.14",
+    "emotion-theming": "^10.0.14",
+    "idb": "^4.0.4",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "rebass": "^4.0.2"
+  },
+  "devDependencies": {
+    "now": "^16.1.1",
+    "parcel-bundler": "^1.12.3",
+    "parcel-plugin-sw-cache": "^0.3.1",
+    "prettier": "^1.18.2"
+  }
+}

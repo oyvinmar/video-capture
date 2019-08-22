@@ -1,0 +1,14 @@
+{
+
+  "files.exclude": {
+    "**/.git": true,
+    "**/.cache": true,
+    "**/.DS_Store": true
+  },
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/node_modules/**": true,
+    "**/public": true,
+    "**/lib": true
+  },
+}

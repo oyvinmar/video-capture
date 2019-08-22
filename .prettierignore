@@ -1,0 +1,8 @@
+package.json
+dist
+public
+.cache
+*.png
+LICENSE
+.*
+yarn.lock
